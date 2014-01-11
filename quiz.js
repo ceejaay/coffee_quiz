@@ -2,9 +2,11 @@
 (function() {
 
   $().ready(function() {
-    return $(".box").click(function() {
-      var name;
-      return name = prompt("Start the quiz?");
+    $(".box").click(function() {
+      return prompt("Start the Quiz?");
+    });
+    return $(".button").click(function() {
+      return alert("you clicked the yellow");
     });
   });
 
